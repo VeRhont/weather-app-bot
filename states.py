@@ -2,5 +2,5 @@ from enum import Enum
 
 
 class BotStates(Enum):
-    normal = 1,
-    forecast = 2
+    current_weather = 1,
+    weather_forecast = 2
